@@ -2,7 +2,6 @@ CACHE MANIFEST
 
 CACHE:
 index.html
-assets/data.json
 assets/svg/more.svg
 css/main.css
 js/app.js
