@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "index": "/index.html",
+  "index": "/angular-off-prod/index.html",
   "appData": {
     "test": true
   },
