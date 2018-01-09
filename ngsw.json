@@ -23,30 +23,7 @@
       "patterns": []
     }
   ],
-  "dataGroups": [
-    {
-      "name": "api-freshness",
-      "patterns": [
-        "\\/timeline"
-      ],
-      "strategy": "freshness",
-      "maxSize": 100,
-      "maxAge": 259200000,
-      "timeoutMs": 60000,
-      "version": 1
-    },
-    {
-      "name": "api-performance",
-      "patterns": [
-        "\\/favorites"
-      ],
-      "strategy": "performance",
-      "maxSize": 100,
-      "maxAge": 259200000,
-      "timeoutMs": 60000,
-      "version": 1
-    }
-  ],
+  "dataGroups": [],
   "hashTable": {
     "/angular-off-prod/index.html": "ff5ba75a98fa906fa6eb29b5dfe862d76f4c82a5",
     "/angular-off-prod/ngsw-worker.js": "a134e7c3df5ea6461d7419d4d56c61c9e076d5d2",
